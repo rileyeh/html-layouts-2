@@ -1,0 +1,170 @@
+* {
+
+    background: #E1E8FA;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'Muli', sans-serif;
+    background: white;
+    width: auto;
+    margin: 20px
+
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 25px 25px 40px 25px;
+    font-weight: bold;
+
+}
+
+nav {
+
+    background: white;
+
+}
+
+.logo {
+
+    display: flex;
+    align-items: center;
+    background: white;
+
+}
+
+
+.logo-words {
+
+    font-size: 22px;
+    background: white;
+    margin-left: 10px;
+
+}
+
+span {
+
+    font-size: 14px;
+    background: white;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: #101011;
+    background: white;
+    margin: 25px;
+    font-size: 14px;
+
+}
+
+.right-buttons {
+
+    background: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.button1 {
+
+    background: #153ACC;
+    width: 125px;
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+    margin-right: 30px;
+
+}
+
+.first-section {
+
+    background: white;
+    position: relative;
+    display: flex;
+    height: 100vh;
+
+}
+
+#top-image {
+    
+    width: auto;
+    position: absolute;
+    left: 60px;
+
+}
+
+.top-text {
+
+    margin-left: 60px;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    
+}
+
+h1 {
+
+    font-size: 60px;
+
+}
+
+.button2 {
+
+    background: #153ACC;
+    color: white;
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    margin: 15px 0px;
+}
+
+
+
+.social-media-icons {
+    
+    position: fixed;
+    right: 8px;
+    bottom: 8px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: none;
+    
+}
+
+.circle {
+    color: white;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 9px;
+    background: none;
+}
+
+.circle i {
+    background: none;
+}
+
+.second-section {
+    background: white;
+    width: auto;  
+    height: 90vh; 
+    
+}
+
+.second-text {
+    
+}
